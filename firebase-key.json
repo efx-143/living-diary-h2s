@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "living-diary",
+  "private_key_id": "a486509731036beb6cad1984891adaeb8e7fe442",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDFzUtRHasBLZ45\nXt19ff6hbZBXM3W/CGuTR5SO3L+RYxrje7CkpyTTKTq1hVgj59KZDlOf2meB6qoW\nNqhIrjbQUPR1xFnVZwQWEYV8eLBf0ryNGbf+gk29cH5EizvyuBID+oVd83kGLCeE\numHq9MJvRKrXCRrJfCbOxaqF4UjP8m3H5H2xWrZNPsSic8P29JbJ4aMNUNzbiWmu\nqXGdrBUbORyq/6aBQJDjnXOHeg4JnLX0yF/u0+dRakfYUUkb0f2+5emvfBVBazIJ\n0JvzxuVz0+tlsAuS+wxvJgBIQuViRdt7Yuj4/J7qFOVZnZ0cPlUSwKVpFdtQuFyD\ntACfL8ljAgMBAAECggEASiF9/CkLyTXBCkxI4zrAntxSj7PMCavMsVZO0Vne+8xy\nK9ZT5el0biUSCSyv00kTDuSlJ5AxYanCU+/pEtAj39+vNqG/bzCcAe9QIU2UAF2Y\n56K/Z8WLABf0Ypjx/y3IJrCRohvY/By5NM+rWeSgKBZKlqulW+TJII5JMcK0SKYv\nrpnDwMHCqtC23vxEjYCeWjW5/5KqBB1JxZY/+8MKyVJFJ5t/dNaqe7KAveKHsWtZ\nxlCfvcmBBZmj9uYCGQoGAN8+FLbvSpKqwIKO/mFtdyulMOULVHDLE+BiWfCcZT1U\nJxBmOszf7Kpd5E3KkJy8AHg5EIpOSJqdhjR9chmCoQKBgQD5/h9INbdZT3DghVnv\nMO8zkxHLGuWdR94+m8hRFAkHYZ5GPri1LGT0tzOLvEUH5YSpHDiP84f1B5Fb7AD6\nzvNFhPYpdM2q+zZBDJfvvOFqvVQrWcgqWvW0Rpc4NBctNl1KEOZBC5UwnYTJpW2Z\npSafbsh3E07qNVlvC/5G1MhA4QKBgQDKjhxXCKX1lfvb5KjvnrBSwMh48fATZuuZ\nG9UWiBgV8Ir8F6BqrPSXFq1TeRqQmnnQbalFAosNqbRM4trzQFMrCOOv3ahSq/Rr\ntfO/IJT8THobkEnqGBGF8wV2uwUFbqS3dISzBoxImW2brGUD0hH8eMpkqUfmY1Nm\nDRGUmIwewwKBgQCayimOaYw8ZX7r1kXoX7FMityymNXhu/U1aPnwkepBQsVgk0eF\nDpb4G1N0Sz+m8wtgNpQjNdRR+LydYRT+NxPUUM6mvqb2HpPqVSTikV413EL4kJ/q\n8eU/GZJaf452NTowOSSI0+YtcuscfCzPvL2cbFj9udvcEupsYs2wB+JyoQKBgGO3\n4qvWTh3BYOS4hZKyBQw4bHleYlqq6IHP+e/FwFXMvh+tYgQicaeQOnRFwpY99opt\n8k9PGTX4vhK7/B6VJFyjW7RQ43UPwpzkTsNhPveWjubS+hCNGNNg+Oei2q358o1+\nh3W7W4TCQ/vHu1NOMByjOsCjtgnuDDjJZkZJc3IRAoGBAPAE5rzA9woMycpo/bYY\n/J80dByOXoPyRHNCuzLg6eOcZobZzp54AT9yPu2+cOgGP+k/UUOcwl2d9YsHIDjC\ng62F6zPPbr0+FOL0+o7upsGRBtLFn4hwVPwyOaFRVRVarNihG0ZlpxG1zKoo8AGm\njKeXjNn8LwSolHb10vBLQVSL\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@living-diary.iam.gserviceaccount.com",
+  "client_id": "117359331619416352773",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40living-diary.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
