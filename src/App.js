@@ -1,3 +1,4 @@
+return <h1>HELLO WORLD</h1>;
 import React, { useEffect, useState } from "react";
 import { collection, addDoc, onSnapshot, doc, updateDoc, deleteDoc, getDoc, query, orderBy } from "firebase/firestore";
 import { initAuth, db } from "./services/firebase";
