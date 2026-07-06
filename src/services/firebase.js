@@ -26,7 +26,7 @@ export const initAuth = (onAuthReady) => {
     } else {
       // User is signed out. Attempt to sign in anonymously.
       try {
-        const userCredential = await signInAnonymously(auth);
+        await signInAnonymously(auth);
         // The listener will fire again with the new user, so we don't need to do anything here.
       } catch (error) {
         console.error("Anonymous sign-in failed:", error);
