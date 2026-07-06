@@ -1,6 +1,6 @@
 // src/components/AppLockScreen.jsx
 import React, { useState, useEffect } from 'react';
-import { Lock, Fingerprint } from 'lucide-react';
+import { Fingerprint } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function AppLockScreen({ pinHash, onUnlock }) {
