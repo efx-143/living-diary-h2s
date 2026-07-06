@@ -34,10 +34,8 @@ if not GEMINI_API_KEY:
 gemini_client = genai.Client(api_key=GEMINI_API_KEY)
 
 try:
-    if os.getenv('GOOGLE_APPLICATION_CREDENTIALS'):
-        cred = credentials.ApplicationDefault()
-    else:
-        cred = credentials.Certificate('serviceAccountKey.json')
+    
+    cred = credentials.Certificate('serviceAccountKey.json')
 
     firebase_admin.initialize_app(cred, {
         'storageBucket': FIREBASE_STORAGE_BUCKET
