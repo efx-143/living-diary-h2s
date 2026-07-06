@@ -216,7 +216,7 @@ export default function App() {
     if (contextEntries.length === 0) contextEntries = entries.slice(0, 5);
 
     try {
-      const response = await fetch("http://127.0.0.1:8080/ask", {
+      const response = await fetch("https://living-diary-h2s.onrender.com/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: promptText, entries: contextEntries, userName: userName }),
@@ -263,7 +263,7 @@ export default function App() {
         
         setStoryData(prev => ({ ...prev, loadingMessage: `Syncing ${newEntriesToProcess.length} new entries... Your story will update in real-time! 🎨` }));
         
-        const response = await fetch("http://127.0.0.1:8080/generate_story_panels", {
+        const response = await fetch("https://living-diary-h2s.onrender.com/generate_story_panels", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ 
