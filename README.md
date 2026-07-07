@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 📖 The Living Diary - Your Life, Your Manga
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Status](https://img.shields.io/badge/Status-Live-success)
+![Frontend](https://img.shields.io/badge/Frontend-React.js-blue)
+![Backend](https://img.shields.io/badge/Backend-Node.js-green)
+![AI](https://img.shields.io/badge/AI-Gemini_1.5_Pro_%7C_Vertex_AI-orange)
+![Deployment](https://img.shields.io/badge/Deployed_on-Firebase_%7C_Render-yellow)
 
-## Available Scripts
+## 🚀 The Vision
 
-In the project directory, you can run:
+We live in an era of cheap dopamine where deep self-reflection is rare. Traditional journaling feels like a chore because it's a static, one-sided interaction—you write, and the page just stares back. **The Living Diary** fixes this. It’s a gamified journaling app that doesn’t just store your entries; it actively reads, remembers, and talks back to you using your own history.
 
-### `npm start`
+Unlike generic AI bots that offer surface-level advice, the AI inside this app has access to your long-term personal context. If you write, *"I'm scared about my exam tomorrow,"* it scans your past and replies, *"You felt the same way on March 12th, but you faced it and scored an A. You can do it again."* It literally feels like talking to a wiser version of yourself.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **🧠 Hyper-Personalized Chat:** Powered by Google Gemini 1.5 Pro and Vector Search, the diary remembers your past entries and uses them to provide data-backed emotional support.
+- **🎨 Manga Story Mode:** To kill "journaling fatigue," every daily entry generates a serialized Manga/Manhwa panel using Vertex AI Imagen. Your daily real-life struggles become plot points, turning you into the protagonist of your own graphic novel.
+- **🎙️ Ambient Voice Mode:** For days when typing is too much friction, simply turn on Voice Mode. The app passively records your thoughts in the background and auto-drafts a perfectly formatted entry by the evening.
 
-### `npm test`
+## 🏗️ System Architecture & Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React.js (Hosted on Firebase)
+- **Backend:** Node.js & Express (Hosted on Render)
+- **AI Models:** Google Gemini 1.5 Pro (Conversational Memory) & Vertex AI Imagen (Image Generation)
+- **Database & Retrieval:** Firebase Firestore & Google Cloud Vector Search
 
-### `npm run build`
+## ⚙️ Local Setup & Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to run the project locally on your machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/efx-143/living-diary-h2s.git](https://github.com/efx-143/living-diary-h2s.git)
+cd living-diary-h2s
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
+### 2. Install Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# For Frontend
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# For Backend (if applicable in the same repo)
+cd backend
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Environment Variables Setup
 
-## Learn More
+Create a `.env` file in the root directory. **Never commit this file to GitHub.** Add the following keys:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```env
+REACT_APP_GEMINI_API_KEY=your_google_gemini_api_key_here
+REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+REACT_APP_BACKEND_URL=your_render_backend_url
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+### 4. Run the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ⚠️ Important Note Regarding Deployment
 
-### Making a Progressive Web App
+The backend of this application is deployed on Render's free tier. As a result, the server may spin down after a period of inactivity. When you make your first request (like saving an entry or chatting), it might take **30-50 seconds** for the backend to wake up. Subsequent requests will be instantaneous.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🏆 Acknowledgements
 
-### Advanced Configuration
+Created for the **Google Cloud & Hack2Skill Gen AI Academy Hackathon**.
+Built with ❤️ by Sanyam Chavan.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
